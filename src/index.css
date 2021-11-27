@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#head{
+  width: 100%;
+  height: 100px;
+  background-color: rgb(218, 173, 91);
+  display: flex;
+
+}
+h1{
+  transform:translateY(22px);
+  font-size: 40px;
+}
+#text{
+  height: 150px;
+  width: 500px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 15px;
+
+
+  
+}
+.main-note{
+  margin-top: 100px;
+  height: 250px;
+  width: 600px;
+  border-radius: 5px;
+  margin-left: 500px;
+  box-shadow:inset 4px 4px 6px -1px rgba(0,0, 0,0.2 ),
+                      inset -4px -4px 6px -1px rgba(255,255, 255,0.7 ),
+                     -0.5px -0.5px 0px rgba(255,255, 255,1 ),
+                     -0.5px -0.5px 0px rgba(0,0, 0,.15 ),
+                      0px 12px 10px 9px rgba(0,0, 0,.5 );
+}
+input{
+  box-shadow:inset 4px 4px 6px -1px rgba(0,0, 0,0.2 ),
+                      inset -4px -4px 6px -1px rgba(255,255, 255,0.7 ),
+                     -0.5px -0.5px 0px rgba(255,255, 255,1 ),
+                     -0.5px -0.5px 0px rgba(0,0, 0,.15 ),
+                      0px 12px 10px -10px rgba(0,0, 0,.5 );
+                      border: none;
+                      font-size: 20px;
+                      font-weight: bold;
+                      padding-left: 15px;
+
+}
+
+.container2{
+ display: inline-grid;
+
+}
+.notes2{
+margin-left: 30px;
+height: 200px;
+width: 200px;
+border-radius: 5px;
+box-shadow:inset 4px 4px 6px -1px rgba(0,0, 0,0.2 ),
+                inset -4px -4px 6px -1px rgba(255,255, 255,0.7 ),
+               -0.5px -0.5px 0px rgba(255,255, 255,1 ),
+               -0.5px -0.5px 0px rgba(0,0, 0,.15 ),
+                0px 12px 10px 0px rgba(0,0, 0,.5 );
+                margin-bottom: 20px;
+              
+                margin-top: 50px;
+                word-wrap: break-word;
+
+}
+#add{
+  font-size: 40px;
+  box-shadow:inset 4px 4px 6px -1px rgba(0,0, 0,0.2 ),
+                inset -4px -4px 6px -1px rgba(255,255, 255,0.7 ),
+               -0.5px -0.5px 0px rgba(255,255, 255,1 ),
+               -0.5px -0.5px 0px rgba(0,0, 0,.15 ),
+                0px 12px 10px 0px rgba(0,0, 0,.5 );
+                margin-bottom: 20px;
+                border-radius: 15px;
+                padding: 5px;
+                margin-left: 574px;
+  color: rgb(218, 173, 91);
+  cursor: pointer;
+
+
+              
+}
+#add:hover{
+  background-color: rgb(218, 173, 91);
+  color: white;
+}
+
+#dlt{
+  color: rgb(218, 173, 91);
+  font-size: 20px;
+  box-shadow:inset 4px 4px 6px -1px rgba(0,0, 0,0.2 ),
+                inset -4px -4px 6px -1px rgba(255,255, 255,0.7 ),
+               -0.5px -0.5px 0px rgba(255,255, 255,1 ),
+               -0.5px -0.5px 0px rgba(0,0, 0,.15 ),
+                0px 12px 10px 0px rgba(0,0, 0,.5 );
+               
+                padding: 5px;
+             
+                margin-top: 93px; 
+                 margin-left: 172px;
+                 cursor: pointer;
+
+              
+
+}
+#dlt:hover{
+  background-color: rgb(218, 173, 91);
+  color: white;
+}
+#footer{
+  transform: translate(45%,432px);
+}
+
+
